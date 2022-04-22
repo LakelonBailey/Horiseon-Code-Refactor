@@ -8,7 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
+p {
+    font-size: 16px;
+}
+
+/* Header Styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,22 +42,13 @@ body {
     font-size: 20px;
 }
 
-
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* Header Styling End */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Hero Styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +56,27 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+/* Hero Styling End */
+
+
+/* Primary Section Styling */
+.content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -68,12 +89,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.contents {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* Primary Section Styling End */
 
+
+/* Benefits Section Styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,7 +108,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 
 .benefit { 
     margin-bottom: 32px;
@@ -99,25 +122,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits Section Styling End */
 
-.primary-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.primary-content img {
-    max-height: 200px;
-}
-
-.primary-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Styling */
 footer {
     padding: 30px;
     clear: both;
@@ -128,3 +136,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* Footer Styling End */
