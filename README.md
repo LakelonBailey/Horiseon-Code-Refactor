@@ -11,6 +11,9 @@ Official website for Horiseon: a marketing agency that provides companies with s
 ## Website
 https://lakelonbailey.github.io/Horiseon-Code-Refactor/
 
+## Template
+![image](./assets/images/Horiseon_template)
+
 ## Contribution
 Refactored in April 2022 by Lakelon Bailey
 
